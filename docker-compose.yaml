@@ -1,0 +1,6 @@
+services:
+  isl-backend-t2i:
+    build: .
+    image: isl-backend-t2i:1.0
+    ports:
+      - "8000:8000"
