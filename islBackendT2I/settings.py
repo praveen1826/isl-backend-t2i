@@ -90,9 +90,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'text2image',
-        'HOST': 'localhost',
-        'USER': 'root',
-        'PASSWORD': 'praveen0123'
+        'HOST': 'isl-my-sql.mysql.database.azure.com',
+        'PORT': '3306',
+        'USER': 'praveen',
+        'PASSWORD': 'Sample@0123'
     }
 }
 
